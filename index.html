@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Style Sheet -->
+  <link rel="stylesheet" href="index.css">
+  <!-- Fonts -->
+  
+  <title>Todo List</title>
+</head>
+<body>
+  
+  <form>
+    <div class="formContainer">
+      <header>
+        <h1 class="header">Demetrius' Todo List</h1>
+      </header>
+    <input type="text" class="todoInput">
+    <button class="todoButton" type="submit">
+      <i class="fa fa-plus-square fa-1x"></i>
+    </button>
+      <div class="select">
+        <select name="todos" class="filterTodo">
+          <option value="all">All</option> <i class="far fa-caret-square-down"></i>
+          <option value="completed">Completed</option>
+          <option value="uncompleted">Uncompleted</option>
+        </select>
+      </div>
+      <div class="todoContainer">
+        <ul class="todoList">
+          <!-- List items go here -->
+    
+    
+        </ul>
+    </div>
+  </form>
+  
+    
+  </div>
+</body>
+</html>
+<script src="index.js"></script>
